@@ -5,7 +5,7 @@ Static HTML/CSS site (migrated from Google Sites), ready for GitHub Pages.
 ## Structure
 
 - `index.html` – Home
-- `publications.html`, `research.html`, `reports.html`, `cv.html`, `teaching.html`, `data.html`
+- `publications.html`, `research.html`, `reports.html`, `teaching.html`, `data.html`
 - `personal.html` (Other stuff), `project-2000.html`
 - `style.css` – shared styling (light and dark mode)
 - `images/` – photos
