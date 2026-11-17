@@ -15,7 +15,7 @@
       <a href="research.html" aria-current="page">Research</a>
       <a href="cv.html">CV</a>
       <a href="teaching.html">Teaching</a>
-      <a href="data.html">Data</a>
+      <a href="data.html">Data and Code</a>
       <a href="personal.html">Other stuff</a>
     </nav>
   </header>
@@ -24,6 +24,15 @@
     <h2>Working papers and research in progress</h2>
     <p>If you&rsquo;re interested in a paper, you can always request the latest working paper version by sending an e-mail to <a href="mailto:p.heijnen@rug.nl">p.heijnen@rug.nl</a>.</p>
     <p>See also: <a href="reports.html">Reports</a>.</p>
+
+    <article class="paper">
+      <h3>On the Computation of Equilibrium in Discontinuous Economic Games <span class="year">(2026)</span></h3>
+      <p class="meta"><a href="Papers/computing_nash.pdf">Working paper (PDF)</a> · <a href="https://github.com/pimheijnen/ComputeMixedNash">Python package</a></p>
+      <details>
+        <summary>Abstract</summary>
+        <p>In many game-theoretic models of price competition, the only equilibrium is in mixed strategies: firms draw their price from a non-degenerate distribution on an interval. Except in special cases, deriving this distribution is a nontrivial task. This paper proposes a procedure to compute such an equilibrium numerically. The action space is divided into bins, and a player chooses a bin from which the action is then drawn at random, which smooths the discontinuity in the payoff function. I show that the equilibrium of the discretized game is an &epsilon;-equilibrium of the original game with &epsilon; of the order of the bin width, and that it converges to a Nash equilibrium of the original game when the number of bins increases. Averaging the probabilities of neighboring bins often improves the accuracy considerably. Three examples illustrate the procedure.</p>
+      </details>
+    </article>
 
     <article class="paper">
       <h3>Absent-minded Consumer Search and Online Advertising <span class="year">(2025)</span></h3>
@@ -66,15 +75,6 @@
       <details>
         <summary>Abstract</summary>
         <p>We investigate the endogenous acquisition of information in sender-receiver games when information is verifiable. In our setting, there is uncertainty about whether the sender and the receiver will experience a loss. The sender can acquire information about the probability that a loss will occur, while the receiver can reduce the loss. Both actions are costly. By dispersing her information, the sender can change the receiver&rsquo;s perception about the likelihood of loss and (potentially) persuade him to reduce the loss by more than he would have done in the absence of this information. We show that there is a unique perfect Bayesian Nash equilibrium where the sender acquires information but only shares information that indicates that the loss is likely to happen. The receiver takes into account this biased source of information and exerts effort to reduce the loss accordingly. Compared to the social optimum, when the loss is sufficiently high vis-&agrave;-vis the cost of acquiring information, the amount of information acquired (and dispersed) is too low.</p>
-      </details>
-    </article>
-
-    <article class="paper">
-      <h3>On the Computation of Equilibrium in Discontinuous Economic Games <span class="year">(2020)</span></h3>
-      <p class="meta"><a href="https://www.rug.nl/feb/research/som-research-reports/som-research-reports-2020/2020008-eef-def.pdf">Working paper (PDF)</a></p>
-      <details>
-        <summary>Abstract</summary>
-        <p>In many (game-theoretic) models of price competition, mixed-strategy Nash-equilibria naturally occur. For firms, it is an equilibrium to randomly draw a price from a non-degenerate distribution whose support is an interval on the real line. Computing this distribution is a nontrivial task except in special cases. This paper proposes a procedure to numerically calculate such an equilibrium. Examples illustrate that the procedure is fast and accurate.</p>
       </details>
     </article>
   </main>
